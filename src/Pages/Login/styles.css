@@ -1,0 +1,114 @@
+.positionButton {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boxForm {
+  flex-direction: column;
+}
+
+.ErrorStyle {
+  color: #ff0000;
+}
+.buttonSocialLogin:hover {
+  background-color: rgba(243, 234, 234, 0.548);
+}
+
+.nextPageButtonLogin {
+  margin: 2rem;
+  padding: 0.5rem;
+  height: 2.3rem;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+  color: rgb(255, 255, 255);
+  font-size: 0.9rem;
+  fill: rgb(55, 53, 47);
+  justify-content: center;
+  background-color: transparent;
+  cursor: pointer;
+  white-space: nowrap;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.nextPageButtonLogin:hover {
+  background: linear-gradient(
+    -45deg,
+    #ee7652de,
+    #e73c7ed5,
+    #23a5d5b6,
+    #23d5abc4
+  );
+}
+.Developer a {
+  padding-left: 0.3rem;
+  color: #e7f700;
+}
+.Developer a:hover {
+  color: hsla(86, 100%, 50%, 0.836);
+}
+
+.Developer {
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+small p {
+  margin-top: 0.3rem;
+  font-size: 0.8rem;
+  color: #23a5d5;
+  cursor: pointer;
+  /* border-bottom: 1px solid #23a5d5; */
+}
+
+.login {
+  width: 480px;
+  min-height: 400px;
+  background: #fff;
+  border-radius: 6px;
+  padding: 20px 30px;
+}
+.login legend {
+  color: #e73c7e;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.1;
+  text-align: center;
+}
+
+.positionButtonSocial {
+  width: 100%;
+  height: 4rem;
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.positionButtonSocial button {
+  width: 49%;
+  height: 2.3rem;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+  color: rgb(55, 53, 47);
+  fill: rgb(55, 53, 47);
+  justify-content: center;
+  background-color: white;
+  cursor: pointer;
+  white-space: nowrap;
+  border: 1px solid rgb(55, 53, 47);
+}
+
+.positionButtonSocial p {
+  padding-left: 0.3rem;
+  font-family: 'Inter', sans-serif;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+}
+
+.googleIcon {
+}

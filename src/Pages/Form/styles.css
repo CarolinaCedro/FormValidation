@@ -1,0 +1,149 @@
+.boxForm {
+  width: 100%;
+  min-height: 105vh;
+  width: 100%;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400%;
+  animation: gradient 15s ease infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#formulario {
+  width: 500px;
+  min-height: 400px;
+  background: #fff;
+  border-radius: 6px;
+  padding: 20px 30px;
+}
+#formulario legend {
+  color: #e73c7e;
+  font-weight: bold;
+  text-align: center;
+  margin: 5px 0;
+  font-size: 22px;
+}
+.input-group {
+  margin: 10px 0;
+}
+
+.positionCheckBox {
+  display: flex;
+  align-items: center;
+}
+
+.positionCheckBox small {
+  padding-left: 0.3rem;
+}
+
+input {
+  outline-color: #e73c7e6b;
+  font-family: 'Poppins', sans-serif;
+}
+.input-group label {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  color: #393939;
+  cursor: pointer;
+}
+
+.input-group input:not([type='checkbox']) {
+  /* background: #deddddc4; */
+  fill: rgba(55, 53, 47, 0.863);
+  border: 1px solid #b3b1b1;
+  border-radius: 2px;
+  padding: 6px 10px;
+  display: block;
+  width: 100%;
+}
+.input-group input:focus {
+  border-color: #20b2aa;
+}
+
+.input-group input::placeholder {
+  color: #9c9595;
+  font-weight: 300;
+}
+.colunas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.colunas .input-group {
+  width: 48%;
+}
+.footer {
+  text-align: center;
+}
+
+.nextPageButtonForm {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  height: 2.3rem;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+  color: rgb(255, 255, 255);
+  font-size: 0.9rem;
+  fill: rgb(55, 53, 47);
+  justify-content: center;
+  background-color: transparent;
+  cursor: pointer;
+  white-space: nowrap;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.nextPageButtonForm:hover {
+  background: linear-gradient(
+    -45deg,
+    #ee7652de,
+    #e73c7ed5,
+    #23a5d5b6,
+    #23d5abc4
+  );
+}
+
+.botao {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  width: 10rem;
+  border-color: none;
+  border-style: none;
+  border-radius: 0.3rem;
+  padding: 10px 15px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+select {
+  fill: rgba(55, 53, 47, 0.863);
+  border: 1px solid #b3b1b1;
+  color: #9c9595;
+  font-family: 'Inter', sans-serif;
+  border-radius: 2px;
+  outline: #e73c7eb6;
+  width: auto;
+  padding: 0.3rem;
+}
+
+button {
+  font-family: 'Inter', sans-serif;
+  font-weight: lighter;
+}
+.botao:hover {
+  background: #23d5ab;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
