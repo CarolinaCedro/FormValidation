@@ -2,7 +2,7 @@
 
 Você pode visualizar este projeto clicando <a href="https://form-validation-zeta.vercel.app/"> AQUI</a>   <--
 
-este é projeto desenvolvido com a finalidade de aprender algumas validações de input !!
+este é um projeto desenvolvido com a finalidade de aprender algumas validações de input !!
 você pode ver o preview do projeto aqui !!
 
 -> Loguin 
