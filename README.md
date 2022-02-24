@@ -1,6 +1,6 @@
 # Olá este é o Formulário  Rainbow !!
 
-Você pode visualizar este projeto clicando <a href="https://form-validation-zeta.vercel.app/"> AQUI</a>   <--
+Você pode visualizar este projeto clicando <a href="https://form-validation-zeta.vercel.app"/> AQUI</a>   <--
 
 este é um projeto desenvolvido com a finalidade de aprender algumas validações de input !!
 você pode ver o preview do projeto aqui !!
